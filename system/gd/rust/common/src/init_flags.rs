@@ -209,7 +209,7 @@ init_flags!(
         btaa_hci = true,
         btm_dm_flush_discovery_queue_on_search_cancel,
         finite_att_timeout = true,
-        gatt_robust_caching_client = true,
+        gatt_robust_caching_client = false,
         gatt_robust_caching_server,
         gd_core,
         gd_l2cap,

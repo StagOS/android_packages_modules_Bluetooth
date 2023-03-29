@@ -427,7 +427,7 @@ public class AdapterService extends Service {
                         return;
                     }
                     mRunningProfiles.add(profile);
-                    // TODO(b/228875190): GATT is assumed supported. GATT starting triggers hardware
+                    // TODO(b/228875190): GATT is assumed supported. GATT starting triggers hardware 
                     // initializtion. Configuring a device without GATT causes start up failures.
                     if (GattService.class.getSimpleName().equals(profile.getName())) {
                         enableNative();
